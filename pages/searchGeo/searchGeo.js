@@ -36,8 +36,8 @@ Page({
   // 过滤猜你想找的
   filterGuess(){
     return new Promise((resolve)=>{
-      const filterName = ['北京市', '上海市', '广州市', '深圳市', '武汉市']
-      const cityName = ['东城区', '黄浦区', '广州市', '深圳市', '武汉市']
+      const filterName = ['北京市', '上海市', '广州市', '深圳市', '武汉市', '杭州市']
+      const cityName = ['东城区', '黄浦区', '广州市', '深圳市', '武汉市', '杭州市']
       let filterCities = []
       let num = 0;
       this.data.cityList.forEach(item => {
@@ -48,8 +48,8 @@ Page({
         }
       })
       this.setData({
-        filterLine1: filterCities.slice(0, 2),
-        filterLine2: filterCities.slice(2),
+        filterLine1: filterCities.slice(0, 3),
+        filterLine2: filterCities.slice(3),
         filterCities
       })
       resolve()

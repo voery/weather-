@@ -104,17 +104,19 @@
   justify-content: space-around;
   align-items: space-around;
   margin: 10rpx 0;
-  color: #fff;
+  /* color: #000; */
+  color: rgba( 0, 0, 0, 0.8);
   font-size: 30rpx;
 }
 .guess-line > view{
   width: 150rpx;
   padding: 10rpx 0;
   margin: 10rpx 20rpx;
-  background-color: rgba( 0, 0, 0, 0.6);
+  /* background-color: rgba( 0, 0, 0, 0.2); */
+  border: 0.5rpx solid rgba( 0, 0, 0, 0.2);
   border-radius: 8rpx;
   text-align: center;
-  box-shadow: 0 0 1rpx 1rpx rgba( 0, 0, 0, 0.4);
+  /* box-shadow: 0 0 1rpx 1rpx rgba( 0, 0, 0, 0.1); */
 }
 .city-list-item{
   font-size: 30rpx;
@@ -133,7 +135,7 @@
   bottom: 0;
   width: 30rpx;
   padding-top: 52rpx;
-  background-color: rgba( 0, 0, 0, 0.2);
+  /* background-color: rgba( 0, 0, 0, 0.2); */
   z-index: 10;
 }
 .index-item{

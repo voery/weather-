@@ -26,8 +26,8 @@ const throttle = function (fn, delay) {
   return function () {
     let nowTime = Date.now()
     if (nowTime - lastTime > delay || !lastTime) {
-      fn.apply(this, arguments)
       lastTime = nowTime
+      fn.apply(this, arguments)
     }
   }
 }

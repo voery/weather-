@@ -1,10 +1,12 @@
 // 生活指数图片基地址
 const LIFESTYLE_BASE_URL = 'https://6465-demo-57510e-1257978613.tcb.qcloud.la/miniWeather/images/lifestyle'
 const HEWEATHER_API = 'https://free-api.heweather.com/s6/weather'
+const HEWEATHER_API_V7 = 'https://devapi.qweather.com/v7/weather'
 
 module.exports = {
   // 和风天气个人开发key 对外提供 d469334ef67548578d65268f148b046f
   weatherKey: 'd469334ef67548578d65268f148b046f',
+  // weatherKey: 'd070d8b59cc54c9c8df77c0df1b544bf',
   // 腾讯地图开发key
   qqMapKey: 'SUUBZ-4UFCJ-V4VFN-F7234-46UR6-Q6FCK',
   // 实时天气接口地址
@@ -13,6 +15,7 @@ module.exports = {
   dailyWeatherUrl: `${HEWEATHER_API}/forecast`,
   // 逐三小时预报
   hourlyWeatherUrl: `${HEWEATHER_API}/hourly`,
+  // hourlyWeatherUrl: `${HEWEATHER_API_V7}/24h`,
   // 生活指数接口地址
   lifestyleUrl: `${HEWEATHER_API}/lifestyle`,
   // 天气图标基地址
